@@ -1,0 +1,54 @@
+*{
+    margin: 0cap;
+    padding: 0cap;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+header li, ul{
+    
+}
+header li{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    padding: 10px;
+
+}
+
+#content{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    background-color: rgb(40, 40, 216);
+    display:flex;
+    padding:5px;
+
+
+}
+
+
+
+img{
+    border-radius: 50%;
+}
+
+section{
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    color: white
+}
+@media screen and (max-width: 1024px){
+  
+
+}
