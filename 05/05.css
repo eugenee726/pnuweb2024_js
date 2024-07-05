@@ -1,9 +1,45 @@
 form{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   width: 100%;
   padding: 20px;
+}
 
+.d1{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: start;
+  align-items: center;
+  width: 90%;
+}
+
+.d2{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+
+}
+
+select{
+  width: 90%;
+  height: 30px;
+
+}
+
+input{
+  width: 80%;
+  height: 30px;
+}
+
+#txt2{
+  background-color: beige;
+}
+
+label{
+  font-weight: bold;
+  font-size: x-large;
 }

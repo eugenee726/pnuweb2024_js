@@ -1,54 +1,103 @@
-*{
-    margin: 0cap;
-    padding: 0cap;
-
+* {
+    margin: 0px;
+    padding: 0px;
 }
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: start;
 }
-header li, ul{
-    
+#content {
+    background-color: aliceblue;
+    padding: 20px;
 }
-header li{
-    display:flex;
-    justify-content:space-between;
-    align-items:end;
+header {
+    margin: 20px;
     padding: 10px;
-
 }
-
-#content{
-    background-color: lightblue;
+header>div,header>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>div {
+    font-size: xx-large;
+    font-weight: bold;
+}
+header>ul {
+    margin: 20px;
+}
+header li {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 10px;
     padding: 10px;
+    border-radius: 10px;
+    background-color: royalblue;
+}
+header li:hover {
+    background-color: coral;
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: white;
-    background-color: rgb(40, 40, 216);
-    display:flex;
-    padding:5px;
-
-
 }
 
+article,
+section {
+    margin: 30px;
+}
 
+h1 {
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-img{
+article {
+    padding: 40px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+}
+
+section>div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+section p {
+    margin-left: 50px;
+}
+
+img {
     border-radius: 50%;
 }
 
-section{
-    background-color: white;
-}
-
-footer{
+footer {
     background-color: black;
-    color: white
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: small;
 }
-@media screen and (max-width: 1024px){
-  
 
+/* 미디어쿼리 */
+@media screen and (min-width: 1280px) {
+    #content {
+        width: 80%;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
